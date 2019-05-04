@@ -31,7 +31,7 @@ public class Main {
             
             if (answer == 1){ // option 1
                 // initialize the object of MatrixGenerator & get the default letter matrix
-                MatrixGenerator obj = new MatrixGenerator()
+                MatrixGenerator obj = new MatrixGenerator();
                 matrix = obj.getMatrix();
                 
                 System.out.println("------------MATRIX GENERATED------------");
